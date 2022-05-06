@@ -1,0 +1,26 @@
+Clone emanuelpalm/productive-demo-wm
+clone arrowhead-f/arrowhead-contract-proxy
+
+// Instructions if we do not use dockers and compile from source
+Build contract proxy - mvn verify
+build productive-demo-wm -  in root gradlew shadowJar
+find gradle jars inside build/libs/
+
+GUI localhost port 9001 and 9002 OR 9002 and 9003 (Remember to import sysop cert)
+
+To use the Smart Product I need to copy the certificae cloud and create systems certificates from that one, plus the authorization rules
+
+// Staff needed if we use dockers, but not doing that for this demo
+cmd instructions: 
+	cd contract-proxy	
+	docker build . -t contract-proxy
+into prodcutive-demo-we
+cmd instructions: 
+	./scripts/mk_certs.sh
+	docker-compose up --build
+
+// Order start systems
+1.Contract proxy-buyer
+1.Contract-proxy-seller
+2.buyer
+2.seller
