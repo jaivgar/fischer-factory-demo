@@ -1,0 +1,20 @@
+Router fischer demo with PLC
+
+Wifi sginal: Arroxx_Workstation
+Wifi password: arrowxx_raspy
+
+Admin us router: arrowxx
+Admin pas router: eisxx (department)
+
+DHCP Reservations List :
+Computer Name 		IP Address 	MAC Address
+Workstation-raspi	192.168.0.120	b8-27-eb-12-02-81	 
+jaime-ThinkPad-T470s	192.168.0.110	xx-28-f8-73-ec-xx
+Smart_product		192.168.0.115	b8-27-eb-8d-88-6e
+
+-----------------
+Raspy Far Edge
+
+Us:pi
+Cont: arxx
+
