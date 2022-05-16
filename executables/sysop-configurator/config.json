@@ -22,6 +22,24 @@
       "authenticationInfo": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEArXImtm3sLodR9M0cYcVgsv7mKkptL+F8BeM+Ghc/+CtVk3ZX1wR/xP/Fx/hqFGbM2mYeHIwRi2HeQFzA2lY0rDwvk8EWeRCeUxQJWI20iYEicKJzGcH34cmSpTvYWxHxWnBFA+4xNVSkyxDVZz043+DF/KxDQqSTm786plpGjxab4sFSQLROIOfrQmE4l3zsNheg1CqojtEnXjFxj5SpRCl7Vb1Ul4rZ1AKVQ5z309Uy6ybVYUa52OHSL9PUormtzNR2VB4kM2TqqkCOr5XzudRC8f23kQaHGl8jhwpldwh/+yC5umagZyYsjLDUqVZ6GKxwRNH2xN3vDuvFn9XfLwIDAQAB",
       "port": 9003,
       "systemName": "middleware"
+    },
+    {
+      "address": "127.0.0.1",
+      "authenticationInfo": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApp7CEmHYr2nCFJu9KDlvhWfxnaSgc+7UF5gNCWXdlgCqOQJ+xkuKx3bheOJV7VC678sjYfwY/1F6HITZx4kfDgUrDN01eWWJU0G+iOxq7dhFj8xDufGm6IxsgwEYv086t3MN0jZ/TDomrcLTpZhRmriADHTCifWBKoR1VDAbY3pqwq2tgCYPscCMSUAswoxlqSzMw4YlreLyG3/PuM/HIV1TxWYakMmQE2teLZVtjgRs32sx1EPwuNmc08MdF5h1X6x0NplCOPSuzhNnpH/xMZmHA8yj1tTERPTIJD1hlomEuk6i84k7+8uk5gRnhrz6WVBCkhC5AbhncZHODybxgQIDAQAB",
+      "port": 8503,
+      "systemName": "smart_product"
+    },
+    {
+      "address": "127.0.0.1",
+      "authenticationInfo": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAl9JAVHmIjFSLN4Z+zpMARdNts38pCnFD/bHuf1F7xcfZi+yDM+QM1pMoOhzTthI34sXek3w9JlPytiodWCjXuAHjlrrIell2mJiULzEyKyl+4oOmRA60GiO0eh2/D1KTaeC9L7VbjX3ULlH5NeBpkPxtL4dTs8hxL1xGuKxYG8gRauRRGY67AUoRzALVxDOT3BftA21IkfDs03UM+D4xTEdgJqPseo/9VXXgGSI/aVdOUYfnKRPmoGoW1NvuZ6strbaRVSY7YlqkJN7JUQPMC/CFFcZZJ9AYN74at+L6Ex6FORCUjpnpG3XsqXM0dTTHDQdWFYkGQiBGIQyEqWBmmQIDAQAB",
+      "port": 8502,
+      "systemName": "workflow_manager"
+    },
+    {
+      "address": "127.0.0.1",
+      "authenticationInfo": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAotaFgGd436IpH0JbZylC9l8J2onML3go/wvkDkfz78/rjewwAG7DImI83WT1VqbgnbFoC8jK+tgEOlBHESaNhnRVbUVSLC7xrHV2OM82Blp2ODOc9ZaI62+66BHMJSNwKjZ23pdHhr+IMf7mYn5JL3v7ZJOBFYwBnqG77mPlAmyOTIWl4wAuA3kyFWhOomlYC/4PIr7ucx/GK1nsoialZql3MRiz06nOFWOAXf83Ju3c8912z/PBN+xb6Rbbm66ETOqkGMzXEh778OYvzdfzIkgEyvC9emekztj/SrMzaZdcSePz1tq40MU8GN1www/G6j71vfYFjLdD1uQcHO4ZRQIDAQAB",
+      "port": 8501,
+      "systemName": "workflow_executor"
     }
   ],
   "services": [
