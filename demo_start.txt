@@ -1,5 +1,15 @@
-Clone emanuelpalm/productive-demo-wm
-clone arrowhead-f/arrowhead-contract-proxy
+Repositories usef for this demo:
+
+emanuelpalm/productive-demo-wm
+arrowhead-f/core-java-spring  (version 4.2.x)
+arrowhead-f/arrowhead-contract-proxy
+jaivgar/workflow-manager
+jaivgar/workflow-executor
+jaivgar/smart-product
+
+The first time that you try to execute all the systems, there will be issues as the database is not ready, so the buyer and sellers will fail to start.
+The solution is to execute the sysop-configurator system, and it requires that the core systems are running in addition to the smart-product, workflow-manager and workflow-executor systems. You only need to execute sysop-configurator system once, then you can stop it as it does not need to keep running for the demo to work.
+
 
 // Instructions if we do not use dockers and compile from source
 Build contract proxy - mvn verify
